@@ -1,0 +1,24 @@
+package com.nopcommerce.user;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+
+public class Level_01_Register_Login {
+	@Test
+	public void TC_01() {
+	}
+
+	@Test
+	public void TC_02() {
+	}
+
+	@BeforeClass
+	public void beforeClass() {
+	}
+
+	@AfterClass
+	public void afterClass() {
+	}
+
+}
