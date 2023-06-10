@@ -29,7 +29,6 @@ public class level_03_Page_Login {
 
 	private String projectPath = System.getProperty("user.dir");
 
-	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		if(browserName.equals("firefox")) {
