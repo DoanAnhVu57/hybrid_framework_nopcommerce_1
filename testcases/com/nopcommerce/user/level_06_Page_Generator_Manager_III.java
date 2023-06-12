@@ -10,14 +10,14 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObject.HomePageObject;
-import pageObject.LoginPageObject;
-import pageObject.PageGeneratorManager;
-import pageObject.RegisterPageObject;
+import pageObject.nopCommerce.HomePageObject;
+import pageObject.nopCommerce.LoginPageObject;
+import pageObject.nopCommerce.PageGeneratorManager;
+import pageObject.nopCommerce.RegisterPageObject;
 
 public class level_06_Page_Generator_Manager_III extends BaseTest {
 	private WebDriver driver;
-	private String firstName, lastName, invalidEmail, emailAddress, notFoundEmail, password,invalidPassword;
+	private String firstName, lastName, invalidEmail, emailAddress, notFoundEmail, password, invalidPassword;
 
 	private HomePageObject homePage;
 	private RegisterPageObject registerPage;
@@ -34,13 +34,13 @@ public class level_06_Page_Generator_Manager_III extends BaseTest {
 		notFoundEmail = "afc" + generateFakeNumber() + "@gmail.com";
 		emailAddress = "afc" + generateFakeNumber() + "@gmail.vn";
 		password = "123456";
-		invalidPassword ="111111";
+		invalidPassword = "111111";
 
 		homePage = PageGeneratorManager.getHomePage(driver);
 
 		System.out.println("Pre-Condition_ Step_01: Click to Register link");
 		registerPage = homePage.clickToRegisterLink();
-		
+
 		System.out.println("Pre-Condition_Step_02: senkey data");
 		registerPage.inputToFirstNameTextbox(firstName);
 		registerPage.inputToLastNameTextbox(lastName);
@@ -105,7 +105,8 @@ public class level_06_Page_Generator_Manager_III extends BaseTest {
 		loginPage.inputToEmailTextbox(emailAddress);
 		loginPage.inputToPasswordTextbox(invalidPassword);
 		loginPage.clickToLoginButton();
-		Assert.assertEquals(loginPage.getErrorMessageUnseccessfull(),"Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
+		Assert.assertEquals(loginPage.getErrorMessageUnseccessfull(),
+				"Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
 	}
 
 	@Test
@@ -116,7 +117,7 @@ public class level_06_Page_Generator_Manager_III extends BaseTest {
 		loginPage.inputToEmailTextbox(emailAddress);
 		loginPage.inputToPasswordTextbox(password);
 		homePage = loginPage.clickToLoginButton();
-		
+
 		Assert.assertTrue(homePage.isMyAccountDisplayed());
 
 	}
