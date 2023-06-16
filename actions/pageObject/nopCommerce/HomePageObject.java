@@ -1,9 +1,10 @@
-package pageObject;
+package pageObject.nopCommerce;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUIs.HomePageUI;
+import pageUIs.nopCommerce.HomePageUI;
+import pageUIs.nopCommerce.CustomerInfoPageUI;
 
 public class HomePageObject extends BasePage {
 
@@ -29,6 +30,13 @@ public class HomePageObject extends BasePage {
 		waitForElementVisible(driver, HomePageUI.MY_ACCOUNT_LINK);
 		return isElementDisplayed(driver, HomePageUI.MY_ACCOUNT_LINK);
 		
+		
+	}
+
+	public CustomerInfoPageObject clickToMyAccountLink() {
+		waitForElementClickable(driver, CustomerInfoPageUI.MY_ACCOUNT_LINK);
+		clickToElement(driver,  CustomerInfoPageUI.MY_ACCOUNT_LINK);
+		return PageGeneratorManager.getCustomerInfoPage(driver);
 		
 	}
 }

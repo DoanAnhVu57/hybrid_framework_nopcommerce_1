@@ -1,10 +1,10 @@
-package pageObject;
+package pageObject.nopCommerce;
 
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUIs.HomePageUI;
-import pageUIs.RegisterPageUI;
+import pageUIs.nopCommerce.HomePageUI;
+import pageUIs.nopCommerce.RegisterPageUI;
 
 public class RegisterPageObject extends BasePage{
 
@@ -85,5 +85,6 @@ public class RegisterPageObject extends BasePage{
 		waitForElementVisible(driver,RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
 		return getElementText(driver,RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
 	}
+
 
 }
