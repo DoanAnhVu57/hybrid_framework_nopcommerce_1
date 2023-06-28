@@ -35,6 +35,7 @@ public class HomePageObject extends BasePage{
 		return isElementDisplayed(driver, HomePageUI.PAGINATION_PAGE_BY_NUMBER_ACTIVE, pageNumber);
 	}
 
+	//site: https://www.jqueryscript.net/demo/CRUD-Data-Grid-Plugin-jQuery-Quickgrid/
 	public List<String> getValueAllRowAtAllPage() {
 		int tolalPage = getElementSize(driver, HomePageUI.TOTAL_PAGINATION);
 		System.out.print("Totalsize = "+tolalPage);
@@ -61,6 +62,45 @@ public class HomePageObject extends BasePage{
 		}
 		return allRowValuesAllPage;
 	}
+
+	//site: https://www.jqueryscript.net/demo/jQuery-Dynamic-Data-Grid-Plugin-appendGrid/
+	//Enter
+	public void enterToTextboxByColumnNameAtRowNumber(String columnName, String rowNumber, String valueToEnter) {
+		int columnIndex = getElementSize(driver, HomePageUI.COLUMN_INDEX_BY_NAME,columnName) +1;
+		
+		waitForElementVisible(driver, HomePageUI.TEXTBOX_BY_COLUMN_INDEX_AND_ROW_INDEX,rowNumber,String.valueOf(columnIndex) );
+		senkeyToElement(driver, HomePageUI.TEXTBOX_BY_COLUMN_INDEX_AND_ROW_INDEX, valueToEnter, rowNumber,String.valueOf(columnIndex));
+	}
+
+	//select
+	public void selectDropdowByColumnNameAtRownumber(String columnName, String rowNumber, String valueToSelect) {
+		int columnIndex = getElementSize(driver, HomePageUI.COLUMN_INDEX_BY_NAME,columnName) +1;
+	
+		waitForElementClickable(driver, HomePageUI.DROP_DOWN_BY_COLUMN_INDEX_AND_ROW_INDEX,rowNumber,String.valueOf(columnIndex));
+		selectItemInDefaultDropdown(driver, HomePageUI.DROP_DOWN_BY_COLUMN_INDEX_AND_ROW_INDEX, valueToSelect, rowNumber,String.valueOf(columnIndex));
+	
+	}
+
+	public void checkToCheckboxByColumnNameAtRowNumber(String columnName, String rowNumber) {
+		int columnIndex = getElementSize(driver, HomePageUI.COLUMN_INDEX_BY_NAME,columnName) +1;
+		waitForElementClickable(driver, HomePageUI.CHECKBOX_BY_COLUMN_INDEX_AND_ROW_INDEX,rowNumber,String.valueOf(columnIndex));
+		checkToDefaultCheckboxOrRadio(driver, HomePageUI.CHECKBOX_BY_COLUMN_INDEX_AND_ROW_INDEX,rowNumber,String.valueOf(columnIndex));
+	}
+		public void uncheckToCheckboxByColumnNameAtRowNumber(String columnName, String rowNumber) {
+		int columnIndex = getElementSize(driver,HomePageUI.COLUMN_INDEX_BY_NAME,columnName) +1;
+		waitForElementClickable(driver, HomePageUI.CHECKBOX_BY_COLUMN_INDEX_AND_ROW_INDEX,rowNumber,String.valueOf(columnIndex));
+		uncheckToDefaultCheckbox(driver, HomePageUI.CHECKBOX_BY_COLUMN_INDEX_AND_ROW_INDEX,rowNumber,String.valueOf(columnIndex));
+	}
+
+		public void clickLoadDataButton() {
+			waitForElementClickable(driver, HomePageUI.LOAD_DATA_BUTTON);
+			clickToElement(driver, HomePageUI.LOAD_DATA_BUTTON);
+		}
+
+		public void clickToIconByRowNumber(String rowNumber, String iconName) {
+			waitForElementClickable(driver,HomePageUI.ICON_NAME_BY_NUMBER,rowNumber, iconName);
+			clickToElement(driver,HomePageUI.ICON_NAME_BY_NUMBER,rowNumber, iconName);
+		}
 	
 
 }

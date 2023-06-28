@@ -1,6 +1,8 @@
 package com.jquery.datatable;
 
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -53,9 +55,57 @@ public class Level_01_DataTable_DataGrid extends BaseTest {
 		homePage.enterToHeaderTextboxByLabel("Total","14893230");
 		
 	}
-	@Test
+	//@Test
 	public void Table_03_Enter_To_Header() {
+		
 		homePage.getValueAllRowAtAllPage();
+	}
+	@Test
+	public void Table_04_Enter_To_Textbox_At_Any_Row() {
+		homePage.enterToTextboxByColumnNameAtRowNumber("Company","1","RED");
+		homePage.enterToTextboxByColumnNameAtRowNumber("Contact Person","1","NAM");
+		homePage.enterToTextboxByColumnNameAtRowNumber("Order Placed","1","8");
+		
+		homePage.enterToTextboxByColumnNameAtRowNumber("Company","2","ED");
+		homePage.enterToTextboxByColumnNameAtRowNumber("Contact Person","2","NA");
+		homePage.enterToTextboxByColumnNameAtRowNumber("Order Placed","2","6");
+		
+	}
+	@Test
+	public void Table_05_Action_At_Any_DropDown_Row() {
+		homePage.clickLoadDataButton();
+		
+		homePage.enterToTextboxByColumnNameAtRowNumber("Company","1","RED");
+		homePage.enterToTextboxByColumnNameAtRowNumber("Contact Person","2","Kong");
+		homePage.enterToTextboxByColumnNameAtRowNumber("Order Placed","3","6");
+		homePage.selectDropdowByColumnNameAtRownumber("Country","4","Japan");
+	
+		//checkbox
+		homePage.checkToCheckboxByColumnNameAtRowNumber("NPO?","2");
+		homePage.checkToCheckboxByColumnNameAtRowNumber("NPO?","3");
+		
+		//uncheck
+		homePage.uncheckToCheckboxByColumnNameAtRowNumber("NPO?","1");
+		homePage.uncheckToCheckboxByColumnNameAtRowNumber("NPO?","4");
+		homePage.uncheckToCheckboxByColumnNameAtRowNumber("NPO?","5");
+		
+		
+		//handle button
+		homePage.clickToIconByRowNumber("1", "Insert Row Above");
+		
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		
+		homePage.clickToIconByRowNumber("1", "Move Up");
+		
+		homePage.clickToIconByRowNumber("1", "Move Down");
+		
+		
+		homePage.clickToIconByRowNumber("5", "Remove Current Row");
+		homePage.clickToIconByRowNumber("4", "Remove Current Row");
+		homePage.clickToIconByRowNumber("3", "Remove Current Row");
+		homePage.clickToIconByRowNumber("2", "Remove Current Row");
+		homePage.clickToIconByRowNumber("1", "Remove Current Row");
+		
 	}
 	@AfterClass
 	public void AfterClass() {
