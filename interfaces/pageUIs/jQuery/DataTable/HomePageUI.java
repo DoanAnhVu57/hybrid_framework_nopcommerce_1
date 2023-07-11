@@ -1,4 +1,4 @@
-package pageUIs.jQuery;
+package pageUIs.jQuery.DataTable;
 
 public class HomePageUI {
 

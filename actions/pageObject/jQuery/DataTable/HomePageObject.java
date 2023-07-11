@@ -1,4 +1,4 @@
-package pageObject.jQuery;
+package pageObject.jQuery.DataTable;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import commons.BasePage;
-import pageUIs.jQuery.HomePageUI;
+import pageUIs.jQuery.DataTable.HomePageUI;
 
 public class HomePageObject extends BasePage{
 	WebDriver driver;
@@ -100,6 +100,7 @@ public class HomePageObject extends BasePage{
 		public void clickToIconByRowNumber(String rowNumber, String iconName) {
 			waitForElementClickable(driver,HomePageUI.ICON_NAME_BY_NUMBER,rowNumber, iconName);
 			clickToElement(driver,HomePageUI.ICON_NAME_BY_NUMBER,rowNumber, iconName);
+		
 		}
 	
 
