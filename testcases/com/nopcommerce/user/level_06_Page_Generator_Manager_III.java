@@ -10,18 +10,18 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObject.nopCommerce.HomePageObject;
-import pageObject.nopCommerce.LoginPageObject;
-import pageObject.nopCommerce.PageGeneratorManager;
-import pageObject.nopCommerce.RegisterPageObject;
+import commons.PageGeneratorManager;
+import pageObject.nopCommerce.user.UserHomePageObject;
+import pageObject.nopCommerce.user.UserLoginPageObject;
+import pageObject.nopCommerce.user.UserRegisterPageObject;
 
 public class level_06_Page_Generator_Manager_III extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, invalidEmail, emailAddress, notFoundEmail, password, invalidPassword;
 
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
+	private UserHomePageObject homePage;
+	private UserRegisterPageObject registerPage;
+	private UserLoginPageObject loginPage;
 
 	@Parameters("browser")
 	@BeforeClass
@@ -36,22 +36,18 @@ public class level_06_Page_Generator_Manager_III extends BaseTest {
 		password = "123456";
 		invalidPassword = "111111";
 
-		homePage = PageGeneratorManager.getHomePage(driver);
+		homePage = PageGeneratorManager.getUserHomePage(driver);
 
-		System.out.println("Pre-Condition_ Step_01: Click to Register link");
 		registerPage = homePage.clickToRegisterLink();
 
-		System.out.println("Pre-Condition_Step_02: senkey data");
 		registerPage.inputToFirstNameTextbox(firstName);
 		registerPage.inputToLastNameTextbox(lastName);
 		registerPage.inputToEmailTextbox(emailAddress);
 		registerPage.inputToPasswordTextbox(password);
 		registerPage.inputToConfirmPasswordTextbox(password);
 
-		System.out.println("Pre-Condition_Step_03: Click To Register Button");
 		registerPage.clickToRegisterButton();
 
-		System.out.println("Pre-Condition_Step_04: Verify error message success");
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
 	}

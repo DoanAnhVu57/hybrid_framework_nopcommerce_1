@@ -11,15 +11,15 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObject.HomePageObject;
-import pageObject.RegisterPageObject;
+import pageObject.nopCommerce.user.UserHomePageObject;
+import pageObject.nopCommerce.user.UserRegisterPageObject;
 
 public class level_04_Multiple_Browser extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, emailAddress, password;
 
-	private HomePageObject homePage;
-	private RegisterPageObject registerPage;
+	private UserHomePageObject homePage;
+	private UserRegisterPageObject registerPage;
 
 
 	@Parameters("browser")
@@ -32,8 +32,8 @@ public class level_04_Multiple_Browser extends BaseTest {
 		emailAddress = "afc" + generateFakeNumber() + "@gmail.vn";
 		password = "123456";
 
-		homePage = new HomePageObject(driver);
-		registerPage = new RegisterPageObject(driver);
+		homePage = new UserHomePageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 		
 	}
 

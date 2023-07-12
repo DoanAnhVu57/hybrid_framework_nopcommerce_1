@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite  name="NopCommerce">
+<suite name="NopCommerce">
 
-<listeners>
-        <listener class-name="commons.MethodListener"/>
-        <listener class-name="reportConfig.ReportNGListener"/>
-        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-</listeners>
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<!--      <listener class-name="reportConfig.ReportNGListener"/> -->
+		<!--    <listener class-name="reportConfig.ExtentTestListener"/> -->
+		     <listener class-name="reportConfig.AllureTestListener"/> 
+	<!--	<listener class-name="org.uncommons.reportng.HTMLReporter" />-->
+	<!--	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
+	</listeners>
 
-<parameter name="enviromentName" value="DEV"/>
+	<parameter name="enviromentName" value="DEV" />
 
-  <test name="Run on Chrome">
-  <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.nopcommerce.user.level_15_ExtentV5"/>
-    </classes>
-  </test> 
-  
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<!--<class name="com.nopcommerce.common.Common_16_Register_Cookie" />-->
+			<class name="com.nopcommerce.user.level_17_Custom_Close_Driver" />
+		</classes>
+	</test>
+
 </suite>
