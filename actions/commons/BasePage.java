@@ -261,6 +261,10 @@ public class BasePage {
 
 	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName) {
 		return getWebElement(driver, locatorType).getAttribute(attributeName);
+		
+	}
+	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName, String... dynamicValue) {
+		return getWebElement(driver,  getDynamicXpath(locatorType, dynamicValue)).getAttribute(attributeName);
 
 	}
 
@@ -553,7 +557,7 @@ public class BasePage {
 		return PageGeneratorManager.getUserDownloadableProductsPage(driver);
 	}
 
-	// Dynamic1
+	// Dynamic1/　Tối ưu bài học Dynamic
 	public BasePage openPageAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, UserBasePageNopCommecreUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
 		clickToElement(driver, UserBasePageNopCommecreUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
@@ -572,12 +576,49 @@ public class BasePage {
 		}
 	}
 
-	// Dynamic2
+	// Dynamic2/ Pattern Object
 	public void openPageAtMyAccount(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, UserBasePageNopCommecreUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
 		clickToElement(driver, UserBasePageNopCommecreUI.DYNAMIC_PAGE_AT_MY_ACCOUNT_AREA, pageName);
 	}
 
+	/** Enter to dynamic textbox by ID
+	 * @param driver
+	 * @param textbox ID
+	 * @param value
+	 * @author VU AD
+	 */
+	public void inputToTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, UserBasePageNopCommecreUI.DYNAMIC_TEXTBOX_ID, textboxID);
+		senkeyToElement(driver, UserBasePageNopCommecreUI.DYNAMIC_TEXTBOX_ID, value, textboxID);
+	}
+
+	public void clickToButtonText(WebDriver driver,String buttonText) {
+		waitForElementClickable(driver, UserBasePageNopCommecreUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
+		clickToElement(driver, UserBasePageNopCommecreUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
+	}
+	public void clickToRadioButtonByLabel(WebDriver driver, String radioButtonLabelName) {
+		waitForElementClickable(driver, UserBasePageNopCommecreUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
+		checkToDefaultCheckboxOrRadio(driver, UserBasePageNopCommecreUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
+	}
+
+	public void selectToDropdowByName(WebDriver driver, String dropdownAttributeName, String itemValue) {
+		waitForElementClickable(driver, UserBasePageNopCommecreUI.DYNAMIC_SELECT_DROPDOW_BY_NAME, dropdownAttributeName);
+		selectItemInDefaultDropdown(driver, UserBasePageNopCommecreUI.DYNAMIC_SELECT_DROPDOW_BY_NAME, itemValue, dropdownAttributeName);
+	}
+	
+	public void clickToCheckboxButtonByLabel(WebDriver driver, String checkboxButtonLabelName) {
+		waitForElementClickable(driver, UserBasePageNopCommecreUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxButtonLabelName);
+		checkToDefaultCheckboxOrRadio(driver, UserBasePageNopCommecreUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxButtonLabelName);
+		
+	}
+
+	public String getTextboxValue(WebDriver driver, String textboxID) {
+		waitForElementVisible(driver, UserBasePageNopCommecreUI.DYNAMIC_TEXTBOX_ID, textboxID);
+		return getElementAttribute(driver, UserBasePageNopCommecreUI.DYNAMIC_TEXTBOX_ID, "value", textboxID);
+		
+	}
+	//Switch Role
 	public UserHomePageObject clickLoginLinkAtUserPage(WebDriver driver) {
 		waitForElementClickable(driver, UserBasePageNopCommecreUI.LOGOUT_LINK_USER);
 		clickToElement(driver, UserBasePageNopCommecreUI.LOGOUT_LINK_USER);
