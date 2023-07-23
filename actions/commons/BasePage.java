@@ -27,6 +27,10 @@ import pageObject.nopCommerce.user.UserDownloadableProductsPageObject;
 import pageObject.nopCommerce.user.UserHomePageObject;
 import pageObject.nopCommerce.user.UserOrdersPageObject;
 import pageObject.nopCommerce.user.UserRewardPointsPageObject;
+import pageObject.wordpress.AdminDashboardPO;
+import pageObject.wordpress.AdminPostSearchPO;
+import pageObject.wordpress.PageGeneartorManager;
+import pageObject.wordpress.UserHomePO;
 import pageUIs.jQuery.UploadFile.BasePageJqueryUI;
 import pageUIs.nopCommerce.User.UserBasePageNopCommecreUI;
 
@@ -46,7 +50,7 @@ public class BasePage {
 		return driver.getTitle();
 	}
 
-	public String getCurrentUrl(WebDriver driver) {
+	public String getPageUrl(WebDriver driver) {
 		return driver.getCurrentUrl();
 	}
 
@@ -195,6 +199,12 @@ public class BasePage {
 		WebElement element = getWebElement(driver, locatorType);
 		element.clear();
 		element.sendKeys(textValue);
+		
+	}
+	
+	public void clearValueInElementByDeleteKey(WebDriver driver, String locatorType) {
+		WebElement element = getWebElement(driver, locatorType);
+		element.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
 
 	}
 
@@ -348,6 +358,19 @@ public class BasePage {
 			return false;
 		
 	}
+	public boolean isElementUndisplayed(WebDriver driver, String locator, String... dynamicValue){
+		overrideGlobalTimeout(driver, 5);
+		List<WebElement> elements = getListWebElement(driver,getDynamicXpath(locator, dynamicValue));
+		
+		overrideGlobalTimeout(driver, 30);
+		if (elements.size()==0) {
+			return true;
+		}else if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return true;
+		}else
+			return false;
+		
+	}
 
 	public void overrideGlobalTimeout(WebDriver driver, int timeOut) {
 		driver.manage().timeouts().implicitlyWait(timeOut, TimeUnit.SECONDS);
@@ -376,7 +399,6 @@ public class BasePage {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
 	}
-
 	public void pressKeyToElement(WebDriver driver, String locatorType, Keys key, String... dynamicValue) {
 		Actions action = new Actions(driver);
 		action.sendKeys(getWebElement(driver, getDynamicXpath(locatorType, dynamicValue)), key).perform();
@@ -471,8 +493,7 @@ public class BasePage {
 
 	public void waitForElementVisible(WebDriver driver, String locatorType, String... dynamicValue) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
-		explicitWait.until(ExpectedConditions
-				.visibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValue))));
+		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(getDynamicXpath(locatorType, dynamicValue))));
 	}
 
 	public void waitForAllElementVisible(WebDriver driver, String locatorType) {
@@ -483,8 +504,7 @@ public class BasePage {
 
 	public void waitForAllElementVisible(WebDriver driver, String locatorType, String... dynamicValue) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
-		explicitWait.until(ExpectedConditions
-				.visibilityOfAllElementsLocatedBy(getByLocator(getDynamicXpath(locatorType, dynamicValue))));
+		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByLocator(getDynamicXpath(locatorType, dynamicValue))));
 
 	}
 
@@ -633,6 +653,15 @@ public class BasePage {
 
 	}
 
+	public UserHomePO openEndUserSite(WebDriver driver, String endUserUrl) {
+		openPageUrl(driver,endUserUrl);
+		return pageObject.wordpress.PageGeneartorManager.getuserHomePage(driver);
+	}
+	
+	public AdminDashboardPO openAdminUrlSite(WebDriver driver, String adminUrl) {
+		openPageUrl(driver, adminUrl);
+		return pageObject.wordpress.PageGeneartorManager.getadminDashboardPage(driver);
+	}
 	private int longTimeout = 30;
 	private short shortTimeout = 5;
 
