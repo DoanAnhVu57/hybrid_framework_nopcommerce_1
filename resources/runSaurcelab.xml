@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Saurcelab - Sort" paralle = "false" thread-count ="3">
+
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		    <listener class-name="reportConfig.ReportNGListener"/> 
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+	<parameter name="appUrl" value="https://www.saucedemo.com/" />
+
+
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.saurcelab.sort.Level_19_Sort_Asc_Desc" />
+		</classes>
+	</test>
+	
+</suite>
