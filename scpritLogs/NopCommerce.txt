@@ -1,11 +1,25 @@
- [2023-07-12 20:28:50,885] Register - Step 01: Click to Register Link
- [2023-07-12 20:28:51,993] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
- [2023-07-12 20:28:52,176] Register - Step 03:Enter to LastName textbox with value is 'FC'
- [2023-07-12 20:28:52,372] Register - Step 04:Enter to emailAddress textbox with value is 'afc77@gmail.vn'
- [2023-07-12 20:28:52,560] Register - Step 05:Enter to password textbox with value is '123456'
- [2023-07-12 20:28:52,717] Register - Step 06:Enter to Confirm password textbox with value is '123456'
- [2023-07-12 20:28:52,895] Register - Step 07: Click to Register Button
- [2023-07-12 20:28:54,037] Register - Step 08: Verify Register Success Message
- [2023-07-12 20:28:54,171]  -------------------------- FAILED -------------------------- 
- [2023-07-12 20:28:54,402] OS name = windows 10
- [2023-07-12 20:28:54,403] Driver instance name = firefoxdriver: firefox on windows (bce0df61-4e9a-4bd1-b25c-0b13f0c47b4b)
+[2023-08-10 22:45:06,150] Register - Step 01: Click to Register Link
+[2023-08-10 22:45:07,357] Register - Step 02: Click to Radio Button Male
+[2023-08-10 22:45:07,688] Register - Step 03:Enter to FirstName textbox with value is 'auto'
+[2023-08-10 22:45:07,853] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-10 22:45:07,987] Regiater - Step 05: Select Dropdow Day
+[2023-08-10 22:45:08,414] Regiater - Step 06: Select Dropdow Month
+[2023-08-10 22:45:08,837] Regiater - Step 07: Select Dropdow Year
+[2023-08-10 22:45:09,248] Register - Step 08:Enter to emailAddress textbox with value is 'afcautom3637@gmail.vn'
+[2023-08-10 22:45:09,412] Register - Step 09: Click to Checkbox button
+[2023-08-10 22:45:09,488] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-10 22:45:09,659] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-10 22:45:09,821] Register - Step 12: Click to Register Button
+[2023-08-10 22:45:10,861] Register - Step 13: Verify Register Success Message
+[2023-08-10 22:45:11,150] Login - Step 01: Click to Login Link
+[2023-08-10 22:45:17,813] Login - Step 02:Enter to emailAddress textbox with value is 'afcautom3637@gmail.vn'
+[2023-08-10 22:45:17,972] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-10 22:45:18,138] Login - Step 04: Click Login Button
+[2023-08-10 22:45:19,027] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-10 22:45:19,201] My Account - Step 01: Navigate to My Account page
+[2023-08-10 22:45:19,767] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-10 22:45:19,914] My Account - Step 03: Verify First Name value
+[2023-08-10 22:45:20,035] My Account - Step 03: Verify Last Name value
+[2023-08-10 22:45:20,161] My Account - Step 03: Verify Email value
+[2023-08-10 22:45:20,306] OS name = windows 10
+[2023-08-10 22:45:20,307] Driver instance name = firefoxdriver: firefox on windows (8b3f7ba0-3325-4801-a063-80d49dc501b9)

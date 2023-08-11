@@ -1,5 +1,5 @@
 package javaOOP;
 
 public enum EnvironmentList {
-     LOCAL,GRID,CLOUD,DOCKER;
+     DEV, TESTING, STAGING, PRE_PROD, PROD;
 }

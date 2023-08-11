@@ -1,135 +1,239 @@
- [2023-07-10 14:33:54,871] Register - Step 01: Click to Register Link
- [2023-07-10 14:33:56,586] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
- [2023-07-10 14:33:57,074] Register - Step 03:Enter to LastName textbox with value is 'FC'
- [2023-07-10 14:33:57,540] Register - Step 04:Enter to emailAddress textbox with value is 'afc7978@gmail.vn'
- [2023-07-10 14:33:57,872] Register - Step 05:Enter to password textbox with value is '123456'
- [2023-07-10 14:33:58,167] Register - Step 06:Enter to Confirm password textbox with value is '123456'
- [2023-07-10 14:33:58,547] Register - Step 07: Click to Register Button
- [2023-07-10 14:33:59,915] Register - Step 08: Verify Register Success Message
- [2023-07-10 14:34:00,037]  -------------------------- PASSED -------------------------- 
- [2023-07-10 14:34:00,042] Login - Step 01: Click to Login Link
- [2023-07-10 14:34:00,906] Login - Step 02:Enter to emailAddress textbox with value is 'afc7978@gmail.vn'
- [2023-07-10 14:34:01,324] Login - Step 03:Enter to password textbox with value is '123456'
- [2023-07-10 14:34:01,589] Login - Step 04: Click Login Button
- [2023-07-10 14:34:03,661] Login - Step 05: Verify True My Account isDisplayed
- [2023-07-10 14:34:03,866]  -------------------------- PASSED -------------------------- 
- [2023-07-10 14:34:03,866] Login - Step 06: Click To My Account Link
- [2023-07-10 14:34:04,714] Login - Step 07: Verify True Customer Info isDisplayed
- [2023-07-10 14:34:04,884]  -------------------------- PASSED -------------------------- 
- [2023-07-10 14:35:02,059] Register - Step 01: Click to Register Link
- [2023-07-10 14:35:03,845] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
- [2023-07-10 14:35:04,400] Register - Step 03:Enter to LastName textbox with value is 'FC'
- [2023-07-10 14:35:04,882] Register - Step 04:Enter to emailAddress textbox with value is 'afc5812@gmail.vn'
- [2023-07-10 14:35:05,323] Register - Step 05:Enter to password textbox with value is '123456'
- [2023-07-10 14:35:05,704] Register - Step 06:Enter to Confirm password textbox with value is '123456'
- [2023-07-10 14:35:06,051] Register - Step 07: Click to Register Button
- [2023-07-10 14:35:07,391] Register - Step 08: Verify Register Success Message
- [2023-07-10 14:35:07,598]  -------------------------- PASSED -------------------------- 
- [2023-07-10 14:35:07,613] Login - Step 01: Click to Login Link
- [2023-07-10 14:35:08,546] Login - Step 02:Enter to emailAddress textbox with value is 'afc5812@gmail.vn'
- [2023-07-10 14:35:08,891] Login - Step 03:Enter to password textbox with value is '123456'
- [2023-07-10 14:35:09,264] Login - Step 04: Click Login Button
- [2023-07-10 14:35:10,707] Login - Step 05: Verify True My Account isDisplayed
- [2023-07-10 14:35:10,910]  -------------------------- PASSED -------------------------- 
- [2023-07-10 14:35:10,910] Login - Step 06: Click To My Account Link
- [2023-07-10 14:35:11,814] Login - Step 07: Verify True Customer Info isDisplayed
- [2023-07-10 14:35:11,901]  -------------------------- PASSED -------------------------- 
- [2023-07-10 22:15:04,115] Register - Step 01: Click to Register Link
- [2023-07-10 22:15:04,688] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
- [2023-07-10 22:15:04,910] Register - Step 03:Enter to LastName textbox with value is 'FC'
- [2023-07-10 22:15:05,073] Register - Step 04:Enter to emailAddress textbox with value is 'afc6110@gmail.vn'
- [2023-07-10 22:15:05,263] Register - Step 05:Enter to password textbox with value is '123456'
- [2023-07-10 22:15:05,458] Register - Step 06:Enter to Confirm password textbox with value is '123456'
- [2023-07-10 22:15:05,638] Register - Step 07: Click to Register Button
- [2023-07-10 22:15:06,494] Register - Step 08: Verify Register Success Message
- [2023-07-10 22:15:06,585]  -------------------------- FAILED -------------------------- 
- [2023-07-10 22:15:06,747] Login - Step 01: Click to Login Link
- [2023-07-10 22:15:07,247] Login - Step 02:Enter to emailAddress textbox with value is 'afc6110@gmail.vn'
- [2023-07-10 22:15:07,415] Login - Step 03:Enter to password textbox with value is '123456'
- [2023-07-10 22:15:07,570] Login - Step 04: Click Login Button
- [2023-07-10 22:15:08,357] Login - Step 05: Verify True My Account isDisplayed
- [2023-07-10 22:15:08,449]  -------------------------- PASSED -------------------------- 
- [2023-07-10 22:15:08,449] Login - Step 06: Click To My Account Link
- [2023-07-10 22:15:08,992] Login - Step 07: Verify True Customer Info isDisplayed..
- [2023-07-10 22:15:09,119]  -------------------------- PASSED -------------------------- 
- [2023-07-10 22:27:27,497] Register - Step 01: Click to Register Link
- [2023-07-10 22:27:28,571] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
- [2023-07-10 22:27:28,799] Register - Step 03:Enter to LastName textbox with value is 'FC'
- [2023-07-10 22:27:28,991] Register - Step 04:Enter to emailAddress textbox with value is 'afc9943@gmail.vn'
- [2023-07-10 22:27:29,174] Register - Step 05:Enter to password textbox with value is '123456'
- [2023-07-10 22:27:29,349] Register - Step 06:Enter to Confirm password textbox with value is '123456'
- [2023-07-10 22:27:29,518] Register - Step 07: Click to Register Button
- [2023-07-10 22:27:30,800] Register - Step 08: Verify Register Success Message
- [2023-07-10 22:27:31,030] Login - Step 01: Click to Login Link
- [2023-07-10 22:27:31,528] Login - Step 02:Enter to emailAddress textbox with value is 'afc9943@gmail.vn'
- [2023-07-10 22:27:31,687] Login - Step 03:Enter to password textbox with value is '123456'
- [2023-07-10 22:27:31,853] Login - Step 04: Click Login Button
- [2023-07-10 22:27:32,637] Login - Step 05: Verify True My Account isDisplayed
- [2023-07-11 23:29:56,172] Login - Step 01: Click to Login Link
- [2023-07-11 23:29:57,262] Login - Step 02:Enter to emailAddress textbox with value is 'afc5575@gmail.vn'
- [2023-07-11 23:29:57,551] Login - Step 03:Enter to password textbox with value is '123456'
- [2023-07-11 23:29:57,757] Login - Step 04: Click Login Button
- [2023-07-11 23:41:03,943] Login - Step 01: Click to Login Link
- [2023-07-11 23:41:05,032] Login - Step 02:Enter to emailAddress textbox with value is 'afc1108@gmail.vn'
- [2023-07-11 23:41:05,269] Login - Step 03:Enter to password textbox with value is '123456'
- [2023-07-11 23:41:05,488] Login - Step 04: Click Login Button
- [2023-07-12 08:09:36,567] Login - Step 01: Click to Login Link
- [2023-07-12 08:09:37,807] Login - Step 02:Enter to emailAddress textbox with value is 'null'
- [2023-07-12 08:13:04,200] Login - Step 01: Click to Login Link
- [2023-07-12 08:13:05,479] Login - Step 02:Enter to emailAddress textbox with value is 'afc3021@gmail.vn'
- [2023-07-12 08:13:05,697] Login - Step 03:Enter to password textbox with value is '123456'
- [2023-07-12 08:13:05,881] Login - Step 04: Click Login Button
- [2023-07-12 08:55:45,518] Pre-Condition - Step 01: Navigate to Login Page
- [2023-07-12 08:55:47,548] Pre-Condition - Step 02:Set Cookie and reload page
- [2023-07-12 08:55:47,645] Pre-Condition - Step 11:Enter to password textbox with value is 'null'
- [2023-07-12 10:26:40,841] Pre-Condition - Step 01: Navigate to Login Page
- [2023-07-12 10:26:42,988] Pre-Condition - Step 02:Set Cookie and reload page
- [2023-07-12 10:26:43,105] Pre-Condition - Step 11:Enter to password textbox with value is 'null'
- [2023-07-12 10:31:28,659] Pre-Condition - Step 01: Navigate to Login Page
- [2023-07-12 10:31:30,079] Pre-Condition - Step 02:Set Cookie and reload page
- [2023-07-12 10:31:30,192] Pre-Condition - Step 11:Enter to password textbox with value is 'null'
- [2023-07-12 14:24:41,843] Pre-Condition - Step 01: Navigate to Login Page
- [2023-07-12 14:24:43,200] Pre-Condition - Step 02:Set Cookie and reload page
- [2023-07-12 14:24:46,328] Pre-Condition - Step 05: Verify True My Account isDisplayed
- [2023-07-12 14:24:46,978]  -------------------------- PASSED -------------------------- 
- [2023-07-12 14:40:48,056] Pre-Condition - Step 01: Navigate to Login Page
- [2023-07-12 14:40:49,881] Pre-Condition - Step 02:Set Cookie and reload page
- [2023-07-12 14:40:54,928] Pre-Condition - Step 05: Verify True My Account isDisplayed
- [2023-07-12 14:40:55,133]  -------------------------- PASSED -------------------------- 
- [2023-07-12 14:49:03,104] Pre-Condition - Step 01: Navigate to Login Page
- [2023-07-12 14:49:08,457] Pre-Condition - Step 02:Set Cookie and reload page
- [2023-07-12 14:49:16,127] Pre-Condition - Step 05: Verify True My Account isDisplayed
- [2023-07-12 14:49:16,297]  -------------------------- PASSED -------------------------- 
- [2023-07-12 20:26:45,271] Register - Step 01: Click to Register Link
- [2023-07-12 20:26:46,548] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
- [2023-07-12 20:26:46,684] Register - Step 03:Enter to LastName textbox with value is 'FC'
- [2023-07-12 20:26:46,860] Register - Step 04:Enter to emailAddress textbox with value is 'afc4796@gmail.vn'
- [2023-07-12 20:26:47,004] Register - Step 05:Enter to password textbox with value is '123456'
- [2023-07-12 20:26:47,180] Register - Step 06:Enter to Confirm password textbox with value is '123456'
- [2023-07-12 20:26:47,318] Register - Step 07: Click to Register Button
- [2023-07-12 20:26:48,530] Register - Step 08: Verify Register Success Message
- [2023-07-12 20:26:48,671]  -------------------------- PASSED -------------------------- 
- [2023-07-12 20:26:48,683] OS name = windows 10
- [2023-07-12 20:26:48,684] Driver instance name = firefoxdriver: firefox on windows (01a93193-2f56-4507-a6fe-9b43b51c8112)
- [2023-07-12 20:27:56,473] Register - Step 01: Click to Register Link
- [2023-07-12 20:27:57,671] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
- [2023-07-12 20:27:57,899] Register - Step 03:Enter to LastName textbox with value is 'FC'
- [2023-07-12 20:27:58,039] Register - Step 04:Enter to emailAddress textbox with value is 'afc8018@gmail.vn'
- [2023-07-12 20:27:58,206] Register - Step 05:Enter to password textbox with value is '123456'
- [2023-07-12 20:27:58,403] Register - Step 06:Enter to Confirm password textbox with value is '123456'
- [2023-07-12 20:27:58,604] Register - Step 07: Click to Register Button
- [2023-07-12 20:27:59,603] Register - Step 08: Verify Register Success Message
- [2023-07-12 20:27:59,685]  -------------------------- FAILED -------------------------- 
- [2023-07-12 20:27:59,920] OS name = windows 10
- [2023-07-12 20:27:59,920] Driver instance name = firefoxdriver: firefox on windows (e962e118-9800-47fe-a95a-9c85e903c5c7)
- [2023-07-12 20:28:50,885] Register - Step 01: Click to Register Link
- [2023-07-12 20:28:51,993] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
- [2023-07-12 20:28:52,176] Register - Step 03:Enter to LastName textbox with value is 'FC'
- [2023-07-12 20:28:52,372] Register - Step 04:Enter to emailAddress textbox with value is 'afc77@gmail.vn'
- [2023-07-12 20:28:52,560] Register - Step 05:Enter to password textbox with value is '123456'
- [2023-07-12 20:28:52,717] Register - Step 06:Enter to Confirm password textbox with value is '123456'
- [2023-07-12 20:28:52,895] Register - Step 07: Click to Register Button
- [2023-07-12 20:28:54,037] Register - Step 08: Verify Register Success Message
- [2023-07-12 20:28:54,171]  -------------------------- FAILED -------------------------- 
- [2023-07-12 20:28:54,402] OS name = windows 10
- [2023-07-12 20:28:54,403] Driver instance name = firefoxdriver: firefox on windows (bce0df61-4e9a-4bd1-b25c-0b13f0c47b4b)
+
+[2023-08-05 10:35:49,705] Register - Step 01: Click to Register Link
+[2023-08-05 10:35:50,932] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
+[2023-08-05 10:35:51,031] Register - Step 03:Enter to LastName textbox with value is 'FC'
+[2023-08-05 10:35:51,104] Register - Step 04:Enter to emailAddress textbox with value is 'afc577@gmail.vn'
+[2023-08-05 10:35:51,169] Register - Step 05:Enter to password textbox with value is '123456'
+[2023-08-05 10:35:51,227] Register - Step 06:Enter to Confirm password textbox with value is '123456'
+[2023-08-05 10:35:51,288] Register - Step 07: Click to Register Button
+[2023-08-05 10:35:52,290] Register - Step 08: Verify Register Success Message
+[2023-08-05 10:35:52,413] Login - Step 01: Click to Login Link
+[2023-08-05 10:35:52,996] Login - Step 02:Enter to emailAddress textbox with value is 'afc577@gmail.vn'
+[2023-08-05 10:35:53,076] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-05 10:35:53,148] Login - Step 04: Click Login Button
+[2023-08-05 10:35:53,951] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-05 10:38:10,023] Register - Step 01: Click to Register Link
+[2023-08-05 10:38:11,293] Register - Step 02:Enter to FirstName textbox with value is 'Automation'
+[2023-08-05 10:38:11,500] Register - Step 03:Enter to LastName textbox with value is 'FC'
+[2023-08-05 10:38:11,606] Register - Step 04:Enter to emailAddress textbox with value is 'afc2852@gmail.vn'
+[2023-08-05 10:38:11,677] Register - Step 05:Enter to password textbox with value is '123456'
+[2023-08-05 10:38:11,747] Register - Step 06:Enter to Confirm password textbox with value is '123456'
+[2023-08-05 10:38:11,809] Register - Step 07: Click to Register Button
+[2023-08-05 10:38:12,694] Register - Step 08: Verify Register Success Message
+[2023-08-05 10:38:12,781] Login - Step 01: Click to Login Link
+[2023-08-05 10:38:13,352] Login - Step 02:Enter to emailAddress textbox with value is 'afc2852@gmail.vn'
+[2023-08-05 10:38:13,479] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-05 10:38:13,572] Login - Step 04: Click Login Button
+[2023-08-05 10:38:14,395] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-07 15:14:53,176] Register - Step 01: Click to Register Link
+[2023-08-07 15:14:55,004] Register - Step 02: Click to Radio Button Male
+[2023-08-07 15:14:55,309] Register - Step 03:Enter to FirstName textbox with value is 'auro'
+[2023-08-07 15:14:55,424] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-07 15:14:55,518] Regiater - Step 05: Select Dropdow Day
+[2023-08-07 15:14:55,830] Regiater - Step 06: Select Dropdow Month
+[2023-08-07 15:14:56,178] Regiater - Step 07: Select Dropdow Year
+[2023-08-07 15:14:56,473] Register - Step 08:Enter to emailAddress textbox with value is 'automatonfc9645@fakemail.vn'
+[2023-08-07 15:14:56,631] Register - Step 09: Click to Checkbox button
+[2023-08-07 15:14:56,678] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-07 15:14:56,788] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-07 15:14:56,875] Register - Step 12: Click to Register Button
+[2023-08-07 15:14:57,867] Register - Step 13: Verify Register Success Message
+[2023-08-07 15:14:57,965] Login - Step 01: Click to Login Link
+[2023-08-07 15:14:58,510] Login - Step 02:Enter to emailAddress textbox with value is 'automatonfc9645@fakemail.vn'
+[2023-08-07 15:14:58,623] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-07 15:14:58,747] Login - Step 04: Click Login Button
+[2023-08-07 15:14:59,543] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-07 15:15:00,060] My Account - Step 01: Navigate to My Account page
+[2023-08-07 15:15:01,564] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-07 15:15:01,891] My Account - Step 03: Verify First Name value
+[2023-08-07 15:15:02,077] My Account - Step 03: Verify Last Name value
+[2023-08-07 15:15:02,254] My Account - Step 03: Verify Email value
+[2023-08-07 15:15:02,440] OS name = windows 10
+[2023-08-07 15:15:02,441] Driver instance name = firefoxdriver: firefox on windows (b77cb948-6430-4e2c-88c0-af8b0ef53fd4)
+[2023-08-07 15:17:21,728] Register - Step 01: Click to Register Link
+[2023-08-07 15:17:22,519] Register - Step 02: Click to Radio Button Male
+[2023-08-07 15:17:22,892] Register - Step 03:Enter to FirstName textbox with value is 'auro'
+[2023-08-07 15:17:23,032] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-07 15:17:23,139] Regiater - Step 05: Select Dropdow Day
+[2023-08-07 15:17:23,528] Regiater - Step 06: Select Dropdow Month
+[2023-08-07 15:17:23,913] Regiater - Step 07: Select Dropdow Year
+[2023-08-07 15:17:24,336] Register - Step 08:Enter to emailAddress textbox with value is 'automatonfc9855@fakemail.vn'
+[2023-08-07 15:17:24,521] Register - Step 09: Click to Checkbox button
+[2023-08-07 15:17:24,596] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-07 15:17:24,733] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-07 15:17:24,893] Register - Step 12: Click to Register Button
+[2023-08-07 15:17:25,990] Register - Step 13: Verify Register Success Message
+[2023-08-07 15:17:26,159] Login - Step 01: Click to Login Link
+[2023-08-07 15:17:26,705] Login - Step 02:Enter to emailAddress textbox with value is 'automatonfc9855@fakemail.vn'
+[2023-08-07 15:17:26,879] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-07 15:17:27,004] Login - Step 04: Click Login Button
+[2023-08-07 15:17:27,953] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-07 15:17:28,166] My Account - Step 01: Navigate to My Account page
+[2023-08-07 15:17:28,810] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-07 15:17:29,000] My Account - Step 03: Verify First Name value
+[2023-08-07 15:17:29,122] My Account - Step 03: Verify Last Name value
+[2023-08-07 15:17:29,263] My Account - Step 03: Verify Email value
+[2023-08-07 15:17:29,420] OS name = windows 10
+[2023-08-07 15:17:29,420] Driver instance name = firefoxdriver: firefox on windows (f3728115-e5bd-47fc-8445-a74eb8ec1764)
+[2023-08-08 10:27:49,410] Register - Step 01: Click to Register Link
+[2023-08-08 10:27:52,505] Register - Step 02: Click to Radio Button Male
+[2023-08-08 10:27:52,802] Register - Step 03:Enter to FirstName textbox with value is 'auro'
+[2023-08-08 10:27:52,917] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-08 10:27:53,017] Regiater - Step 05: Select Dropdow Day
+[2023-08-08 10:27:53,359] Regiater - Step 06: Select Dropdow Month
+[2023-08-08 10:27:53,712] Regiater - Step 07: Select Dropdow Year
+[2023-08-08 10:27:54,029] Register - Step 08:Enter to emailAddress textbox with value is 'automatonfc3617@fakemail.vn'
+[2023-08-08 10:27:54,165] Register - Step 09: Click to Checkbox button
+[2023-08-08 10:27:54,238] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-08 10:27:54,347] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-08 10:27:54,452] Register - Step 12: Click to Register Button
+[2023-08-08 10:27:56,150] Register - Step 13: Verify Register Success Message
+[2023-08-08 10:27:56,241] Login - Step 01: Click to Login Link
+[2023-08-08 10:27:57,009] Login - Step 02:Enter to emailAddress textbox with value is 'automatonfc3617@fakemail.vn'
+[2023-08-08 10:27:57,119] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-08 10:27:57,212] Login - Step 04: Click Login Button
+[2023-08-08 10:27:58,591] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-08 10:27:58,708] My Account - Step 01: Navigate to My Account page
+[2023-08-08 10:27:59,443] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-08 10:27:59,521] My Account - Step 03: Verify First Name value
+[2023-08-08 10:27:59,580] My Account - Step 03: Verify Last Name value
+[2023-08-08 10:27:59,645] My Account - Step 03: Verify Email value
+[2023-08-08 10:27:59,709] OS name = windows 10
+[2023-08-08 10:27:59,709] Driver instance name = firefoxdriver: firefox on windows (9bd44c55-7da9-49d7-9865-c67b71112a3e)
+[2023-08-09 21:16:14,042] Register - Step 01: Click to Register Link
+[2023-08-09 21:16:15,124] Register - Step 02: Click to Radio Button Male
+[2023-08-09 21:16:15,443] Register - Step 03:Enter to FirstName textbox with value is 'auro'
+[2023-08-09 21:16:15,573] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-09 21:16:15,666] Regiater - Step 05: Select Dropdow Day
+[2023-08-09 21:16:16,055] Regiater - Step 06: Select Dropdow Month
+[2023-08-09 21:16:16,385] Regiater - Step 07: Select Dropdow Year
+[2023-08-09 21:16:16,760] Register - Step 08:Enter to emailAddress textbox with value is 'automatonfc1765@fakemail.vn'
+[2023-08-09 21:16:16,935] Register - Step 09: Click to Checkbox button
+[2023-08-09 21:16:17,003] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-09 21:16:17,115] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-09 21:16:17,198] Register - Step 12: Click to Register Button
+[2023-08-09 21:16:18,073] Register - Step 13: Verify Register Success Message
+[2023-08-09 21:16:18,180] Login - Step 01: Click to Login Link
+[2023-08-09 21:16:18,694] Login - Step 02:Enter to emailAddress textbox with value is 'automatonfc1765@fakemail.vn'
+[2023-08-09 21:16:18,808] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-09 21:16:18,935] Login - Step 04: Click Login Button
+[2023-08-09 21:16:19,697] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-09 21:16:19,782] My Account - Step 01: Navigate to My Account page
+[2023-08-09 21:16:20,245] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-09 21:16:20,344] My Account - Step 03: Verify First Name value
+[2023-08-09 21:16:20,400] My Account - Step 03: Verify Last Name value
+[2023-08-09 21:16:20,463] My Account - Step 03: Verify Email value
+[2023-08-09 21:16:20,561] OS name = windows 10
+[2023-08-09 21:16:20,561] Driver instance name = firefoxdriver: firefox on windows (8a108a60-a5a7-40d8-9be3-b50fdfa1dff1)
+[2023-08-09 21:16:53,159] OS name = windows 10
+[2023-08-09 21:16:53,160] Driver instance name = firefoxdriver: firefox on windows (8b9635b8-7a74-49d0-ba37-43552a57f67b)
+[2023-08-09 21:17:10,947] OS name = windows 10
+[2023-08-09 21:17:10,947] Driver instance name = firefoxdriver: firefox on windows (e3656bb2-7493-4138-8e2e-85b5de1d5abd)
+[2023-08-10 08:54:11,400] OS name = windows 10
+[2023-08-10 08:54:11,401] 
+[2023-08-10 10:42:43,489] OS name = windows 10
+[2023-08-10 10:42:43,489] 
+[2023-08-10 10:43:09,659] Register - Step 01: Click to Register Link
+[2023-08-10 10:43:11,109] Register - Step 02: Click to Radio Button Male
+[2023-08-10 10:43:11,412] Register - Step 03:Enter to FirstName textbox with value is 'auro'
+[2023-08-10 10:43:11,501] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-10 10:43:11,620] Regiater - Step 05: Select Dropdow Day
+[2023-08-10 10:43:11,939] Regiater - Step 06: Select Dropdow Month
+[2023-08-10 10:43:12,263] Regiater - Step 07: Select Dropdow Year
+[2023-08-10 10:43:12,592] Register - Step 08:Enter to emailAddress textbox with value is 'automatonfc3772@fakemail.vn'
+[2023-08-10 10:43:12,689] Register - Step 09: Click to Checkbox button
+[2023-08-10 10:43:12,745] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-10 10:43:12,834] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-10 10:43:12,929] Register - Step 12: Click to Register Button
+[2023-08-10 10:43:13,772] Register - Step 13: Verify Register Success Message
+[2023-08-10 10:43:13,910] Login - Step 01: Click to Login Link
+[2023-08-10 10:43:14,364] Login - Step 02:Enter to emailAddress textbox with value is 'automatonfc3772@fakemail.vn'
+[2023-08-10 10:43:14,477] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-10 10:43:14,573] Login - Step 04: Click Login Button
+[2023-08-10 10:43:15,570] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-10 10:43:15,672] My Account - Step 01: Navigate to My Account page
+[2023-08-10 10:43:16,168] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-10 10:43:16,264] My Account - Step 03: Verify First Name value
+[2023-08-10 10:43:16,321] My Account - Step 03: Verify Last Name value
+[2023-08-10 10:43:16,384] My Account - Step 03: Verify Email value
+[2023-08-10 10:43:16,450] OS name = windows 10
+[2023-08-10 10:43:16,450] Driver instance name = firefoxdriver: firefox on windows (3da06d13-7133-467d-8361-0f9fd74f1169)
+[2023-08-10 14:14:32,891] Register - Step 01: Click to Register Link
+[2023-08-10 14:14:34,152] Register - Step 02: Click to Radio Button Male
+[2023-08-10 14:14:34,492] Register - Step 03:Enter to FirstName textbox with value is 'auro'
+[2023-08-10 14:14:34,626] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-10 14:14:34,749] Regiater - Step 05: Select Dropdow Day
+[2023-08-10 14:14:35,129] Regiater - Step 06: Select Dropdow Month
+[2023-08-10 14:14:35,518] Regiater - Step 07: Select Dropdow Year
+[2023-08-10 14:14:35,929] Register - Step 08:Enter to emailAddress textbox with value is 'automatonfc5928@fakemail.vn'
+[2023-08-10 14:14:36,112] Register - Step 09: Click to Checkbox button
+[2023-08-10 14:14:36,183] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-10 14:14:36,339] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-10 14:14:36,496] Register - Step 12: Click to Register Button
+[2023-08-10 14:14:38,523] Register - Step 13: Verify Register Success Message
+[2023-08-10 14:14:38,816] Login - Step 01: Click to Login Link
+[2023-08-10 14:14:56,020] Login - Step 02:Enter to emailAddress textbox with value is 'automatonfc5928@fakemail.vn'
+[2023-08-10 14:14:56,145] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-10 14:14:56,277] Login - Step 04: Click Login Button
+[2023-08-10 14:14:58,543] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-10 14:14:58,662] My Account - Step 01: Navigate to My Account page
+[2023-08-10 14:14:59,283] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-10 14:14:59,459] My Account - Step 03: Verify First Name value
+[2023-08-10 14:14:59,595] My Account - Step 03: Verify Last Name value
+[2023-08-10 14:14:59,731] My Account - Step 03: Verify Email value
+[2023-08-10 14:14:59,864] OS name = windows 10
+[2023-08-10 14:14:59,865] Driver instance name = firefoxdriver: firefox on windows (5389465d-a87b-4996-aa13-775db7c3d35e)
+[2023-08-10 14:22:26,248] OS name = windows 10
+[2023-08-10 14:22:26,249] 
+[2023-08-10 22:42:56,325] OS name = windows 10
+[2023-08-10 22:42:56,325] Driver instance name = firefoxdriver: firefox on windows (59194708-d6e5-465a-abec-58fb7aa7fe6e)
+[2023-08-10 22:44:23,573] Register - Step 01: Click to Register Link
+[2023-08-10 22:44:24,805] Register - Step 02: Click to Radio Button Male
+[2023-08-10 22:44:25,144] Register - Step 03:Enter to FirstName textbox with value is 'auro'
+[2023-08-10 22:44:25,355] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-10 22:44:25,535] Regiater - Step 05: Select Dropdow Day
+[2023-08-10 22:44:25,969] Regiater - Step 06: Select Dropdow Month
+[2023-08-10 22:44:26,379] Regiater - Step 07: Select Dropdow Year
+[2023-08-10 22:44:26,797] Register - Step 08:Enter to emailAddress textbox with value is 'automatonfc5597@fakemail.vn'
+[2023-08-10 22:44:26,938] Register - Step 09: Click to Checkbox button
+[2023-08-10 22:44:27,007] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-10 22:44:27,163] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-10 22:44:27,293] Register - Step 12: Click to Register Button
+[2023-08-10 22:44:28,297] Register - Step 13: Verify Register Success Message
+[2023-08-10 22:44:28,583] Login - Step 01: Click to Login Link
+[2023-08-10 22:44:29,266] Login - Step 02:Enter to emailAddress textbox with value is 'automatonfc5597@fakemail.vn'
+[2023-08-10 22:44:29,449] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-10 22:44:29,614] Login - Step 04: Click Login Button
+[2023-08-10 22:44:30,408] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-10 22:44:30,504] My Account - Step 01: Navigate to My Account page
+[2023-08-10 22:44:31,136] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-10 22:44:31,363] My Account - Step 03: Verify First Name value
+[2023-08-10 22:44:31,731] My Account - Step 03: Verify Last Name value
+[2023-08-10 22:44:31,870] My Account - Step 03: Verify Email value
+[2023-08-10 22:44:32,005] OS name = windows 10
+[2023-08-10 22:44:32,005] Driver instance name = firefoxdriver: firefox on windows (677d4f71-044c-4d07-af27-3d04a2670431)
+[2023-08-10 22:45:06,150] Register - Step 01: Click to Register Link
+[2023-08-10 22:45:07,357] Register - Step 02: Click to Radio Button Male
+[2023-08-10 22:45:07,688] Register - Step 03:Enter to FirstName textbox with value is 'auto'
+[2023-08-10 22:45:07,853] Register - Step 04:Enter to LastName textbox with value is 'FC'
+[2023-08-10 22:45:07,987] Regiater - Step 05: Select Dropdow Day
+[2023-08-10 22:45:08,414] Regiater - Step 06: Select Dropdow Month
+[2023-08-10 22:45:08,837] Regiater - Step 07: Select Dropdow Year
+[2023-08-10 22:45:09,248] Register - Step 08:Enter to emailAddress textbox with value is 'afcautom3637@gmail.vn'
+[2023-08-10 22:45:09,412] Register - Step 09: Click to Checkbox button
+[2023-08-10 22:45:09,488] Register - Step 10:Enter to password textbox with value is '123456'
+[2023-08-10 22:45:09,659] Register - Step 11:Enter to Confirm password textbox with value is '123456'
+[2023-08-10 22:45:09,821] Register - Step 12: Click to Register Button
+[2023-08-10 22:45:10,861] Register - Step 13: Verify Register Success Message
+[2023-08-10 22:45:11,150] Login - Step 01: Click to Login Link
+[2023-08-10 22:45:17,813] Login - Step 02:Enter to emailAddress textbox with value is 'afcautom3637@gmail.vn'
+[2023-08-10 22:45:17,972] Login - Step 03:Enter to password textbox with value is '123456'
+[2023-08-10 22:45:18,138] Login - Step 04: Click Login Button
+[2023-08-10 22:45:19,027] Login - Step 05: Verify True My Account isDisplayed
+[2023-08-10 22:45:19,201] My Account - Step 01: Navigate to My Account page
+[2023-08-10 22:45:19,767] My Account - Step 02: Verify True Customer Info isDisplayed
+[2023-08-10 22:45:19,914] My Account - Step 03: Verify First Name value
+[2023-08-10 22:45:20,035] My Account - Step 03: Verify Last Name value
+[2023-08-10 22:45:20,161] My Account - Step 03: Verify Email value
+[2023-08-10 22:45:20,306] OS name = windows 10
+[2023-08-10 22:45:20,307] Driver instance name = firefoxdriver: firefox on windows (8b3f7ba0-3325-4801-a063-80d49dc501b9)

@@ -19,6 +19,7 @@ import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import javaOOP.EnvironmentList;
 
 public class BaseTest {
 	private WebDriver driver;
@@ -75,16 +76,31 @@ public class BaseTest {
 	}
 	protected String getEnvironmentUrl(String enviromentName) {
 
-		String url= null;
-		switch (enviromentName) {
-		case "DEV":
-			url = GlobalConstants.PORTAL_DEV_URL;
+		String envUrl= null;
+		EnvironmentList environment = EnvironmentList.valueOf(enviromentName.toUpperCase()); 
+		
+		switch (environment) {
+		case DEV:
+			envUrl = "https://demo.nopcommerce.com/";
 			break;
-		case "TEST":
-			url = GlobalConstants.PORTAL_TESTING_URL;
+		case TESTING:
+			envUrl = "https://testing.nopcommerce.com/";
 			break;
+		case STAGING:
+			envUrl = "https://staging.nopcommerce.com/";
+			break;
+		case PRE_PROD:
+			envUrl = "https://pre-prod.nopcommerce.com/";
+			break;
+		case PROD:
+			envUrl = "https://prod.nopcommerce.com/";
+			break;
+			default:
+				envUrl= null;
+		break;
 		}
-		return url;
+		
+		return envUrl;
 	}
 	public int generateFakeNumber() {
 		Random ran = new Random();
@@ -101,7 +117,7 @@ public class BaseTest {
 			}
 			Assert.assertTrue(condition);
 		} catch (Throwable e) {
-			pass = false;
+			pass = false; 
 
 			// Add lỗi vào ReportNG
 			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
